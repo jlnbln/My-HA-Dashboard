@@ -12,16 +12,16 @@ This dashboard is designed to provide a clean, modern, and responsive experience
 ## 📱 Screenshots
 
 ### 📊 Home 
-![Dashboard Overview](https://imgur.com/Ro5dh5A)
+<img src="https://github.com/jlnbln/My-HA-Dashboard/blob/main/images/home_desktop.png?raw=true" height="380"/> <img src="https://github.com/jlnbln/My-HA-Dashboard/blob/main/images/home_mobil.PNG?raw=true" height="380"/>
 
 ### 💡 Living Room Controls
-![Living Room Detail](/mnt/data/Bildschirmfoto 2025-07-27%20um%2021.29.22.png)
+<img src="https://github.com/jlnbln/My-HA-Dashboard/blob/main/images/room_desktop.png?raw=true" height="380"/> <img src="https://github.com/jlnbln/My-HA-Dashboard/blob/main/images/room_mobil.PNG?raw=true" height="380"/>
 
 ### 🎶 Music View
-![Mobile Dashboard](/mnt/data/Bildschirmfoto 2025-07-27%20um%2021.30.08.png)
+<img src="https://github.com/jlnbln/My-HA-Dashboard/blob/main/images/music_desktop.png?raw=true" height="380"/> <img src="https://github.com/jlnbln/My-HA-Dashboard/blob/main/images/music_mobil.PNG?raw=true" height="380"/>
 
 ### 💾 Server Controls
-![Mobile Room Controls](/mnt/data/Bildschirmfoto 2025-07-27%20um%2021.30.31.png)
+<img src="https://github.com/jlnbln/My-HA-Dashboard/blob/main/images/server_desktop.png?raw=true" height="380"/> <img src="https://github.com/jlnbln/My-HA-Dashboard/blob/main/images/server_mobil.PNG?raw=true" height="380"/>
 
 ---
 
@@ -49,7 +49,7 @@ This dashboard combines several powerful custom components from the Home Assista
 - 🏠 **Room-Based Layout**: Grouped views for rooms with lighting, climate, and media control.
 - 🎨 **Stylized UI**: Uses card-mod and bubble-card for a highly polished aesthetic.
 - 🎮 **Smart Device Integration**: Controls for lights, media devices, and climate per room.
-- 🔐 **Security System Integration**: Real-time status and control for security modes.
+- 🎶 **Music Assistant Integration**: Music Assistant directly in the dashboard and custom music player for mobile view.
 
 ---
 
@@ -58,8 +58,8 @@ This dashboard combines several powerful custom components from the Home Assista
 To use this dashboard:
 1. Make sure HACS is installed.
 2. Install all custom cards listed above.
-3. Install the rounded-bubble.yaml theme.
-4. Import or adapt the YAML configuration from this repo.
+3. Install the rounded-bubble.yaml theme from this repository.
+4. Import or adapt the YAML configuration from dashboard.yaml.
 5. Customize entities and room definitions to match your setup.
 6. Enjoy a clean and dynamic smart home interface!
 
