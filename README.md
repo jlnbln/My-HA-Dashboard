@@ -29,11 +29,11 @@ This dashboard is designed to provide a clean, modern, and responsive experience
 
 This dashboard combines several powerful custom components from the Home Assistant community:
 
-- [`navbar-card`](https://github.com/dashboardsbyvinny/navbar-card)
+- [`navbar-card`](https://github.com/joseluis9595/lovelace-navbar-card)
 - [`button-card`](https://github.com/custom-cards/button-card)
 - [`swipe-card`](https://github.com/bramkragten/swipe-card)
 - [`decluttering-card`](https://github.com/custom-cards/decluttering-card)
-- [`my-cards-bundle`](https://github.com/benct/my-cards)
+- [`my-cards-bundle`](https://github.com/AnthonMS/my-cards)
 - [`mini-graph-card`](https://github.com/kalkih/mini-graph-card)
 - [`bubble-card`](https://github.com/Clooos/Bubble-Card)
 - [`card-mod`](https://github.com/thomasloven/lovelace-card-mod)
