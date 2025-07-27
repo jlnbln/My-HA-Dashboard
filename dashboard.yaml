@@ -24625,13 +24625,7 @@ views:
                             content: >-
                               Scan the QR code to connect to the WIFI.
 
-
-                              <ha-icon icon="mdi:wifi"></ha-icon><ha-icon
-                              icon="mdi:none"></ha-icon>JungleMoneyGuest
-
-
-                              <ha-icon icon="mdi:lock"></ha-icon><ha-icon
-                              icon="mdi:none"></ha-icon>IwantWIFI$$$
+                              
                             card_mod:
                               style: |
                                 ha-card { 
