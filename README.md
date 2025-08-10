@@ -40,6 +40,7 @@ This dashboard combines several powerful custom components from the Home Assista
 - [`mushroom-cards`](https://github.com/piitaya/lovelace-mushroom)
 - [`auto-entities`](https://github.com/thomasloven/lovelace-auto-entities)
 - [`weather-card`](https://github.com/bramkragten/weather-card)
+- [`kiosk-mode`](https://github.com/NemesisRE/kiosk-mode)
 
 ---
 
@@ -79,5 +80,16 @@ Huge thanks to the amazing Home Assistant community and the following developers
 
 This project is for personal use and inspiration.  
 All credit for the base designs and components goes to their respective creators.
+
+---
+
+## 💸 Support
+
+If you want to hire me to make your personal dashboard you can do that [here](https://homeassistant-dashboard.com).
+
+Or support my work through buy me a coffee.
+
+[![BuyMeACoffee](https://raw.githubusercontent.com/pachadotdev/buymeacoffee-badges/main/bmc-yellow.svg)](https://www.buymeacoffee.com/jlnbln)
+
 
 ---
