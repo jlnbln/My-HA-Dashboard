@@ -70,6 +70,7 @@ To use this dashboard:
 ## 🤖 Custom Helpers 
 
 ### Input Boolean:
+Toggles Kiosk Mode to be on or off. 
 <pre>
 input_boolean:
   debug_rounded:
@@ -78,6 +79,7 @@ input_boolean:
 </pre>
 
 ### Template Sensors:
+Two sensors that show up in the top row of chips, which show how many lights are on and how many windows are open. 
 <pre>
 sensor:
   - platform: template
@@ -114,13 +116,6 @@ Huge thanks to the amazing Home Assistant community and the following developers
 - [Damian Eickhoff](https://github.com/damianeickhoff)
 - [Clooos](https://github.com/Clooos)
 - [My Smart Home](https://www.youtube.com/@My_Smart_Home)
-
----
-
-## 📄 License
-
-This project is for personal use and inspiration.  
-All credit for the base designs and components goes to their respective creators.
 
 ---
 
