@@ -6,6 +6,7 @@ This dashboard is designed to provide a clean, modern, and responsive experience
 - 🎨 [LE0N's Rounded Dashboard](https://community.home-assistant.io/t/rounded-dashboard-guide/543043)  
 - 🏡 [Damian Eickhoff's HaCasa](https://github.com/damianeickhoff/HaCasa)  
 - 🫧 [Bubble Card by Clooos](https://github.com/Clooos/Bubble-Card)
+- 📱 [My Smart Home](https://www.youtube.com/@My_Smart_Home)
 
 ---
 
@@ -49,7 +50,7 @@ This dashboard combines several powerful custom components from the Home Assista
 - 📱 **Responsive Design**: Works seamlessly on mobile phones, tablets, and desktops.
 - 🏠 **Room-Based Layout**: Grouped views for rooms with lighting, climate, and media control.
 - 🎨 **Stylized UI**: Uses card-mod and bubble-card for a highly polished aesthetic.
-- 🎮 **Smart Device Integration**: Controls for lights, media devices, and climate per room.
+- 👥 **User Specific Layout**: Dashboards adapts to which user is using it. 
 - 🎶 **Music Assistant Integration**: Music Assistant directly in the dashboard and custom music player for mobile view.
 
 ---
@@ -66,6 +67,45 @@ To use this dashboard:
 
 ---
 
+## 🤖 Custom Helpers 
+
+### Input Boolean:
+<pre>
+input_boolean:
+  debug_rounded:
+    name: Debug Rounded
+    icon: mdi:view-dashboard-edit
+</pre>
+
+### Template Sensors:
+<pre>
+sensor:
+  - platform: template
+    sensors:
+      lights_on_count:
+        unique_id: lightsoncount
+        friendly_name: 'Lights on count'
+        value_template: >
+          {% set lights_on = states.light 
+            | selectattr('state', 'eq', 'on') 
+            | list 
+            | count %}
+          {{ lights_on }}
+      window_open_count:
+        unique_id: windowopencount
+        friendly_name: 'Window open count'
+        value_template: >
+          {% set windows_on = states.binary_sensor
+            | selectattr('attributes.device_class', 'eq', 'window')
+            | selectattr('state', 'eq', 'on')
+            | list
+            | count %}
+          {{ windows_on }}
+      
+</pre>
+
+---
+
 ## 🙌 Credits
 
 Huge thanks to the amazing Home Assistant community and the following developers:
@@ -73,6 +113,7 @@ Huge thanks to the amazing Home Assistant community and the following developers
 - [LE0N](https://community.home-assistant.io/u/LE0N)
 - [Damian Eickhoff](https://github.com/damianeickhoff)
 - [Clooos](https://github.com/Clooos)
+- [My Smart Home](https://www.youtube.com/@My_Smart_Home)
 
 ---
 
